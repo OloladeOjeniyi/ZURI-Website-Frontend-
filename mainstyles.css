@@ -1,4 +1,4 @@
-@importa url('http://fonts.cdnfonts.com/css/averta-blackitalic');
+@import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
 *{
 				margin:0;
 				padding:0;
@@ -7,13 +7,15 @@
 
 body {
     background-color: rgb(255, 250, 250);
-    font-family: 'Averta-Light', sans-serif;
+    font-family: 'Averta-Regular', sans-serif;
     font-style: normal;
     font-weight: 400;
 }
 
 p{
     color:hsla(0, 0%, 0%, 0.6);   
+
+     font-family: 'Averta-Regular', sans-serif;
 }
 #intro-container{
     background-image: url("intro-background.svg");
@@ -27,13 +29,16 @@ p{
   margin: 0 auto 3.5rem auto;
 }
 #intro-content  h2 {
+  font-family: 'Averta-Bold', sans-serif;
+
   font-size: 2.0rem;
   margin-bottom: 2.5rem;
-  color:hsla(0, 0%, 0%, 0.75);   
+  color:hsla(0, 0%, 0%, 0.7);   
 }
 #intro-content a { 
+	font-family: 'Averta-Regular', sans-serif;
   text-decoration: none;
-  color:#ee716b;
+   color:#d05757;
 }
 
 #intro-button{
@@ -60,7 +65,12 @@ p{
   color: #e7332b;
   border: 1px solid #e7332b;
 }
+#new-to-industry-button:focus{
 
+		 border: 2px solid #000000; 
+	border-radius:5px;
+
+}
 #need-industry-experience-button{
     background-color: #ffffff; 
     color: #e7332b; 
@@ -72,7 +82,11 @@ p{
     background-color: #e7332b;
     color: #ffffff;
 }
+#need-industry-experience-button:focus{
 
+    border: 2px solid #000000; 
+
+		 border-radius:5px;
 main {
   padding: 7rem 1rem 8rem 1rem;
 }
@@ -87,18 +101,23 @@ main {
 }
 
 #offer-container  h4 {
+	font-family: 'Averta-Regular', sans-serif;
   font-weight: normal;
   font-size:15px;
-  color: #ee716b;
+   color: #d05757;
 }
 #offer-container a {
-  color: #ee716b;
+   color: #d05757;
   text-decoration: none;
 }
 
 #offer-top p {
+  font-family: 'Averta-Regular', sans-serif; 
+
+ color:hsla(0, 0%, 0%, 0.75);
+
   margin-top: 1.5rem;
-  line-height: 3rem;
+  line-height: 2.5rem;
   font-size: 1.5rem;
 }
 
@@ -120,16 +139,18 @@ main {
   }
   
 footer h2 {
+   font-family: 'Averta-Regular', sans-serif;
+  font-weight: bold;
   font-size:20px;
   color:hsla(0, 0%, 0%, 0.75);   
  }
 footer p a {
   text-decoration: none;
-  color:#ee716b;
+  color:#d05757;
 }
 
 #contact-container address {
-  font-style: normal;
+  font-family: 'Averta-Regular', sans-serif;
   color:hsla(0, 0%, 0%, 0.6);   
 }
 
@@ -143,6 +164,7 @@ footer p a {
   border-top: 2px solid hsl(0, 0%, 90%);
 }
 #copyright p {
+   font-family: 'Averta-Regular', sans-serif;
   font-weight: bold;
   color:hsla(0, 0%, 0%, 0.7);   
 }
