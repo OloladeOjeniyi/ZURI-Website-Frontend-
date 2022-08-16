@@ -1,0 +1,1387 @@
+@import url('http://fonts.cdnfonts.com/css/graphik');
+@import url('http://fonts.cdnfonts.com/css/baskerville');
+
+html,body {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Graphik', sans-serif;
+}
+#header-container *,
+#main-container *,
+#footer-container *{
+    font-family: 'Graphik', sans-serif;
+}
+#modal-wrapper {
+    font-family: 'Graphik', sans-serif;
+}
+
+#header-container {
+    padding: 1.5rem 3.5rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgb(255, 253, 245);
+    z-index: 1;
+}
+
+#header-container .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-container .navbar .menu {
+    display: flex;
+    gap: 5rem;
+}
+#header-container .navbar a {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #585757;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#header-container .image-thumb {
+    display: flex;
+    align-items: center;
+}
+
+#header-container .image-thumb img {
+    width: 4.5rem;
+    background-color: hsl(3, 80%, 54%);
+    border-radius: 100px;
+    margin-left: -40px;
+    padding: 10px;
+    position: absolute;
+    margin-top: -35px;
+}
+
+#header-container .image-thumb .enroll,
+ #main-container .first-training-item-two a, 
+#main-container .zuri-main-6 a,
+#main-container .zuri-main-7 .got-questions-tweet .bird-tweet {
+background: #e7332b;
+border-radius: 71px;
+box-shadow: none;
+color: #ffffff;
+padding: 10px 32px;
+text-decoration: none;
+}
+
+#main-container {
+    background: rgb(255, 253, 245);
+    padding: 1.5rem 0;
+}
+#main-container .zuri-main-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+    padding: 1.5rem 4.5rem;
+}
+
+#main-container .first-training-item {
+    width: 25%;
+    background: rgb(255, 253, 245);
+}
+
+#main-container .first-training-item img {
+    mix-blend-mode: darken;
+    width: 100%;
+}
+
+#main-container .first-training-item-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 50%;
+}
+
+#main-container .first-training-item-two span {
+    color: #E7332B;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    text-align: center;
+}
+
+#main-container .first-training-item-two h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+#main-container .first-training-item-two .first-training-item-two-line {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+#main-container .first-training-item-two .first-training-item-two-line img {
+    width: 35%;
+}
+
+#main-container .first-training-item-two p {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    width: 70%;
+    padding-bottom: 2.5rem;
+}
+
+#main-container .first-training-item-two a {
+    background: #e7332b;
+    border-radius: 71px;
+    box-shadow: none;
+    color: #ffffff;
+    padding: 10px 32px;
+}
+
+#main-container .first-training-item-two .first-training-item-two-s1-wire {
+    display: flex;
+    width: 40%;
+    justify-content: end;
+}
+
+#main-container .first-training-item-two .first-training-item-two-s1-wire img {
+    width: 30%;
+}
+
+#main-container .first-training-item-two .first-training-item-two-s1-maleface {
+    margin-right: 70%;
+    margin-top: -25%;
+    width: 3.3rem;
+}
+
+#main-container .hr-div {
+    padding: 1.5rem 4.5rem;
+}
+
+#main-container .hr-one {
+    border: 0.7px solid #514949;
+    opacity: 0.2;
+    margin-top: 10rem;
+}
+
+
+#main-container .zuri-main-2 {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 4.5rem;
+}
+
+#main-container .zuri-main-2 .zuri-main-2-item {
+    width: 33.3%;
+}
+
+#main-container .zuri-main-2 .second-training-item-img {
+    display: flex;
+    justify-content: center;
+}
+#main-container .zuri-main-2  .zuri-main-2-item img {
+    mix-blend-mode: darken;
+    width: 50%;
+}
+
+#main-container .zuri-main-2 .zuri-main-2-item a {
+    color: #43b97f;
+}
+
+#main-container .zuri-main-2 h3 {
+font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.00938em;
+    color: #1b1a20;
+}
+
+#main-container .zuri-main-2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.00938em;
+    color: #background: ;1b1a20;
+}
+
+#main-container .hr-two {
+    border: 0.7px solid #514949;
+    opacity: 0.2;
+    margin: 1.5rem 0 3rem;
+}
+
+#main-container .zuri-main-3 {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 4.5rem;
+}
+
+#main-container .zuri-main-3 .third-training-item-1 .zuri-main-3-wire {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#main-container .zuri-main-3 .third-training-item-1 .zuri-main-3-wire img {
+    width: 15%;
+}
+
+#main-container .zuri-main-3 .third-training-item-1 {
+    width: 60%;
+}
+
+#main-container .zuri-main-3  .third-training-item-2 {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-top: 5rem;
+}
+
+#main-container .zuri-main-3 .third-training-item-2 img {
+    mix-blend-mode: darken;
+    width: 50%;
+}
+
+#main-container .zuri-main-3 h3,
+#main-container .zuri-main-6 .zuri-main-6-header h3,
+#main-container .zuri-main-7 h3,
+#main-container .zuri-main-8 .zuri-main-8-head h3 {
+    color: #e7332b;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+#main-container .zuri-main-3 h2,
+#main-container .zuri-main-6 h2,
+#main-container .zuri-main-7 h2,
+#main-container .zuri-main-8 .zuri-main-8-head h2 {
+    color: #1b1a20;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+#main-container .zuri-main-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 5rem 0 8rem;
+    padding: 1.5rem 4.5rem;
+}
+
+#main-container .zuri-main-4 .box-a {
+    width: 31%;
+    color: #1b1a20;
+    border-radius: 18px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    padding: 58px 48px 93px 50px;
+    transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+#main-container .zuri-main-4 .box-a:hover {
+    transform: translateY(-15px);
+}
+
+#main-container .zuri-main-4 .box-a img {
+    width: 42%;
+    float: right;
+    margin-right: -49px;
+    margin-top: -58px;
+}
+
+#main-container .zuri-main-4 .box-a h2 {
+    color: #1b1a20;
+    font-size: 3.75rem;
+    line-height: 4rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#main-container .zuri-main-4 .box-a h3 {
+    color: #1b1a20;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    padding-bottom: 2.25rem;
+    padding-top: 2rem;
+}
+
+#main-container .zuri-main-4 .box-a p {
+    color: #1b1a20;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+#main-container .zuri-main-4 .box-1,
+#main-container .zuri-main-4 .box-1 h2,
+#main-container .zuri-main-4 .box-1 h3,
+#main-container .zuri-main-4 .box-1 p {
+    background: #e7332b;
+    color: #fff;
+}
+
+#main-container .zuri-main-5 {
+    background-color: rgb(231, 51, 43);
+}
+
+#main-container .zuri-main-5-wrapper {
+    display: flex;
+    color: #ffffff;
+    padding: 2.5rem 6rem 0;
+}
+
+#main-container .zuri-main-5 .zuri-main-5-item1 {
+    width: 40%;
+}
+
+#main-container .zuri-main-5 .zuri-main-5-item1 .zuri-main-5-wire {
+    display: flex;
+    justify-content: end;
+    margin-right: 8rem;
+    margin-top: 1rem;
+}
+
+#main-container .zuri-main-5 .zuri-main-5-item1 .zuri-main-5-wire img {
+    width: 23%;
+}
+
+#main-container .zuri-main-5 .zuri-main-5-item1 p {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.00938em;
+    font-weight: 400;
+}
+
+#main-container .zuri-main-5 .zuri-main-5-item1 h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.00938em;
+}
+
+#main-container .zuri-main-5 .zuri-main-5-item1 .second-p {
+    width: 75%;
+    padding-top: 2.6rem;
+}
+
+#main-container .zuri-main-5 .zuri-main-5-item1 a {
+    display: inline-block;
+    background: #fff;
+    border-radius: 71px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+    color: #e7332b;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding: 10px 32px;
+    margin: 1.875rem 0 2.5rem;
+    text-decoration: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    }
+
+#main-container .zuri-main-5 .zuri-main-5-item1 a:hover {
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px, rgb(0 0 0 / 14%) 0px 4px 5px 0px, rgb(0 0 0 / 12%) 0px 1px 10px 0px;
+}
+
+#main-container .zuri-main-5 .zuri-main-5-item1 .zuri-main-5-point-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#main-container .zuri-main-5 .zuri-main-5-item1 .zuri-main-5-point-wrapper .zuri-main-5-point {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    border: 2px solid #ffffff;
+    border-radius: 79px;
+    padding: 11px 8px 11px 15px;
+    gap: 0.5rem;
+    cursor: not-allowed;
+}
+
+#main-container .zuri-main-5 .zuri-main-5-item1 .zuri-main-5-point-wrapper .zuri-main-5-point img {
+    width: 25%;
+}
+
+#main-container .zuri-main-5 .zuri-main-5-item2 {
+    width: 60%;
+}
+
+#main-container .zuri-main-5 .zuri-main-5-item2 img {
+    width: 100%;
+}
+
+#main-container .zuri-main-5 .zuri-main-5-bottom {
+    width: 15%;
+    padding: 2rem;
+}
+
+#main-container .zuri-main-6 {
+    padding: 1.5rem 4.5rem;
+}
+
+#main-container .zuri-main-6 .zuri-main-6-header h3,
+#main-container .zuri-main-6 .zuri-main-6-header h2 {
+    width: 50%;
+}
+
+#main-container .zuri-main-6 .zuri-main-6-img {
+    display: flex;
+    justify-content: center;
+}
+
+#main-container .zuri-main-6 .zuri-main-6-img img {
+    width: 13%;
+}
+
+#main-container .zuri-main-6 .zuri-main-6-containers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#main-container .zuri-main-6 .zuri-main-6-container-item {
+    background: #ffffff;
+    border-radius: 2.5rem;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    padding: 2.5rem;
+    width: 30%;
+}
+
+#main-container .zuri-main-6 .zuri-main-6-flex-img {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#main-container .zuri-main-6 .zuri-main-6-containers .zuri-main-6-container-item h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding-bottom: 1.25rem;
+    color: #1b1a20;
+}
+
+#main-container .zuri-main-6 .zuri-main-6-containers .zuri-main-6-container-item p {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 1.4rem;
+    padding: 1.875rem 0 0;
+}
+
+#main-container .zuri-main-6 .zuri-main-6-flex-img img {
+    width: 80%;
+}
+
+#main-container .zuri-main-6 .zuri-main-6-button {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 2rem;
+}
+
+#main-container .hr-three {
+    border: 0.7px solid #514949;
+    opacity: 0.2;
+    margin-bottom: 2rem;
+}
+
+#main-container .zuri-main-7 {
+    padding: 1.5rem 4.5rem;
+}
+
+#main-container .zuri-main-7 .zuri-main-7-wire {
+    margin-left: 10%;
+    margin-bottom: -5%;
+}
+
+#main-container .zuri-main-7 .zuri-main-7-wire img {
+    width: 13%;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wire {
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wire img {
+    width: 13%;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-star {
+    display: flex;
+    justify-content: end;
+    margin-top: -65px;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-star img {
+    width: 12%;
+}
+
+#main-container .zuri-main-7 h3,
+#main-container .zuri-main-7 h2,
+#main-container .zuri-main-8 .zuri-main-8-head h3,
+#main-container .zuri-main-8 .zuri-main-8-head h2 {
+    text-align: center;
+}
+
+#main-container .zuri-main-7 .got-questions-tweet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #333;
+    margin-top: 2rem;
+}
+
+#main-container .zuri-main-7 .got-questions-tweet a {
+    text-decoration: none;
+}
+
+#main-container .zuri-main-7 .got-questions-tweet .bird-tweet {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    cursor: pointer;
+}
+
+#main-container .zuri-main-7 .got-questions-tweet .bird-tweet svg {
+    width: 2rem;
+    fill: #ffffff;
+}
+
+#main-container .hr-four {
+    border: 0.7px solid #514949;
+    opacity: 0.2;
+    margin-bottom: 2rem;
+}
+
+.accordion-wrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.accordion {
+    margin: 5rem 0 2rem;
+}
+
+.accordion .accordion-container {
+    position: relative;
+    border: 1px solid rgba(71,44,111,.43);
+    padding: 20px;
+}
+
+.accordion .accordion-container .label {
+    position: relative;
+    padding: 0.625rem;
+    cursor: pointer;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+
+.accordion .accordion-container .label::before {
+    display: inline-block;
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 1.25rem;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+}
+
+.accordion .accordion-container .content{
+    font-family: 'Baskerville', sans-serif;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding: 0 0.625rem;
+    transition: 0.5s;
+}
+
+.accordion .accordion-container.active .content {
+    font-family: 'Baskerville', sans-serif;
+    height: 4rem;
+    padding: 0.625rem;
+}
+
+.accordion .accordion-container.active .label::before {
+    transform: rotate(180deg);
+    content: '+';
+}
+
+#main-container .zuri-main-8 {
+    padding: 1.5rem 4.5rem;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-head p {
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3rem;
+    text-align: center;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wrapper {
+    display: flex;
+    margin: 2.5rem 0;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-first {
+    left: 0;
+    margin-top: 19%;
+    position: absolute;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-second,
+#main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-third {
+    width: 50%;
+    background: #1b1a20;
+    border: 1px solid #fff;
+    border-radius: 65px;
+    box-shadow: 0 31px 60px rgba(231,51,43,.2);
+    box-sizing: border-box;
+    padding: 64px 48px;
+    color: #ffffff;
+    margin-left: 2.1rem;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-tracks .img-8 {
+    display: flex;
+    align-self: center;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-tracks h2 {
+    padding-bottom: 18px;
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-tracks h3 {
+    font-size: 1.125rem;
+    font-weight: 900;
+    letter-spacing: .01em;
+    line-height: 1.5rem;
+    width: 90%;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-tracks p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: .01em;
+    font-weight: 400;
+    width: 90%;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-tracks ul {
+    padding-left: 1rem;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-tracks a {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-tracks .ft {
+    margin-top: 1.5rem;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-tracks .ft .backend-ul {
+    margin-top: 1.5rem;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-tracks .ft img {
+    margin-left: 0.2rem;
+    width: 15px;
+    cursor: pointer;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-bottom {
+    float: right;
+    margin-right: -19px;
+    margin-top: -106px;
+    width: 23%;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-bottom-2 {
+    float: right;
+    margin-right: -19px;
+    margin-top: -110px;
+    width: 42%;
+}
+
+#main-container .zuri-main-8 .zuri-main-8-circle {
+    float: right;
+    margin-right: -57px;
+    margin-top: -116px;
+    width: 16%;
+}
+
+#main-container .zuri-main-9 {
+    padding: 1.5rem 4.5rem;   
+}
+
+#main-container .zuri-main-9 .img-9-dot {
+    display: flex;
+    margin-bottom: 27px;
+    width: 10%;
+}
+
+#main-container .zuri-main-9 .img-9-round {
+    left: 15%;
+    margin-top: 65px;
+    position: absolute;
+    width: 12%;
+}
+
+#main-container .zuri-main-9 .img-9-bend {
+    position: absolute;
+    right: 5%;
+    width: 11%;
+}
+
+#main-container .zuri-main-9 .zuri-main-9-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    color: #ffffff;
+    background-color: rgb(231, 51, 43);
+    border-radius: 24px;
+    text-align: center;
+}
+
+#main-container .zuri-main-9 .zuri-main-9-container p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding-top: 70px;
+}
+
+#main-container .zuri-main-9 .zuri-main-9-container h2 {
+    font-size: 3.4rem;
+    font-weight: 700;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    width: 50%;
+}
+
+#main-container .zuri-main-9 .zuri-main-9-container a {
+    background: #ffffff;
+    border-radius: 71px;
+    box-shadow: none;
+    color: #e7332b;
+    padding: 10px 32px;
+    text-decoration: none;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+#main-container .zuri-main-9 .zuri-main-9-container a:hover {
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px, rgb(0 0 0 / 14%) 0px 4px 5px 0px, rgb(0 0 0 / 12%) 0px 1px 10px 0px;
+}
+
+#main-container .zuri-main-9 .zuri-main-9-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#main-container .zuri-main-9 .zuri-main-9-flex .img-9 {
+    width: 10%;
+}
+
+#footer-container {
+    padding: 1.5rem 4.5rem;
+    color: #1b1a20;
+}
+
+#footer-container .footer-top,
+#footer-container .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-container .footer-top .footer-social img {
+    margin-left: 0.3rem;
+}
+
+#footer-container .footer-bottom {
+    margin: 1.5rem 0 1rem;
+}
+
+#footer-container .footer-bottom .footer-policy {
+    display: flex;
+    gap: 1rem;
+}
+
+#footer-container .footer-bottom .footer-policy a {
+    text-decoration: none;
+    color: #1b1a20;
+}
+
+.footer-hr {
+    display: none;
+}
+
+#modal-wrapper {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.507);
+    
+}
+
+#modal-wrapper .modal-container {
+    position: fixed; 
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 5rem;
+    width: 40%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#modal-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+#modal-top h2 {
+    font-size: 1.3rem;
+    letter-spacing: .01em;
+    line-height: 1.4rem;
+    color: #1b1a20;
+}
+
+#modal-top p {
+    margin-top: 1rem;
+    color: #585757;
+    font-size: 1.1rem;
+    letter-spacing: .02em;
+    line-height: 1.3rem;
+}
+
+#modal-wrapper p {
+    margin-bottom: 0.5rem;
+}
+
+#modal-close {
+    cursor: pointer;
+}
+
+@media screen and (min-width:1001px ) and (max-width:1180px) {
+    #main-container .zuri-main-1 {
+        flex-direction: column;
+        padding: 1.5rem 4.5rem;
+    }
+
+    #main-container .first-training-item {
+        width: 75%;
+    }
+#main-container .first-training-item-two {
+        width: 100%;
+    } #main-container .zuri-main-1 .maleface3 {
+        display: none;
+    }
+
+    #main-container .hr-one {
+        border: 0.7px solid #514949;
+        opacity: 0.2;
+        margin-top: 8.5rem;
+    }
+
+    #main-container .zuri-main-2 {
+        display: flex;
+        align-items: center;
+        padding: 0 4.5rem;
+    }
+
+    #main-container .zuri-main-2 h3 {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    #main-container .zuri-main-2 p {
+        font-size: 1.125rem;
+        line-height: 1.3rem;
+    }
+
+    #main-container .zuri-main-2 .zuri-main-2-item img {
+        mix-blend-mode: darken;
+        width: 76%;
+    }
+
+    #main-container .hr-div {
+        padding: 0 4.5rem;
+    }
+
+    #main-container .zuri-main-4 .box-a {
+        width: 48%;
+    }
+
+    #main-container .zuri-main-5-wrapper {
+        flex-direction: column;
+    }
+
+    #main-container .zuri-main-5 .zuri-main-5-item1 .zuri-main-5-point-wrapper {
+        flex-wrap: nowrap;
+    }
+
+    #main-container .zuri-main-5 .zuri-main-5-item1, #main-container .zuri-main-5 .zuri-main-5-item2  {
+        width: 100%;
+    }
+
+    #main-container .zuri-main-5 .zuri-main-5-item1 .zuri-main-5-point-wrapper .zuri-main-5-point {
+        width: unset;
+    }
+
+    #main-container .zuri-main-6 .zuri-main-6-container-item {
+        width: 48%;
+    }
+
+    #header-container .navbar-header img {
+        width: 90%;
+    }
+
+    #header-container .navbar .menu {
+        gap: 1.5rem;
+    }
+  }
+  
+    @media screen and (min-width:900px ) and (max-width:1000px) {
+    #header-container .navbar .menu {
+        display: none;
+    }
+    
+    #header-container .image-thumb {
+    display: flex;
+    align-items: center;
+    width:250px;
+}
+
+#header-container .image-thumb img {
+    width: 3.0rem;
+    background-color: hsl(3, 80%, 54%);
+    border-radius: 50%;
+    margin-left: -40px;
+    padding: 10px;
+    position: absolute;
+    margin-top: -35px;
+}
+
+    #main-container .zuri-main-1 {
+        flex-direction: column;
+        padding: 1.5rem 4.5rem;
+    }
+
+    #main-container .first-training-item {
+        width: 75%;
+    }
+    
+#main-container .first-training-item-two {
+        width: 100%;
+    }
+
+    #main-container .zuri-main-1 .maleface3 {
+        display: none;
+    }
+
+    #main-container .hr-one {
+        border: 0.7px solid #514949;
+        opacity: 0.2;
+        margin-top: 8.5rem;
+    }
+
+    #main-container .zuri-main-2 {
+        display: flex;
+        align-items: center;
+        padding: 0 4.5rem;
+    }
+
+    #main-container .zuri-main-2 h3 {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    #main-container .zuri-main-2 p {
+        font-size: 1.125rem;
+        line-height: 1.3rem;
+    }
+
+    #main-container .zuri-main-2 .zuri-main-2-item img {
+        mix-blend-mode: darken;
+        width: 76%;
+    }
+
+    #main-container .hr-div {
+        padding: 0 4.5rem;
+    }
+
+    #main-container .zuri-main-4 .box-a {
+        width: 35%;
+    }
+
+    #main-container .zuri-main-5-wrapper {
+        flex-direction: column;
+    }
+
+    #main-container .zuri-main-5 .zuri-main-5-item1,   #main-container .zuri-main-5 .zuri-main-5-item2  {
+        width: 100%;
+    }
+
+    #main-container .zuri-main-5 .zuri-main-5-item1 .zuri-main-5-point-wrapper {
+        flex-wrap: nowrap;
+        gap: 1rem;
+    }
+
+    #main-container .zuri-main-5 .zuri-main-5-item1 .zuri-main-5-point-wrapper .zuri-main-5-point {
+        width: unset;
+    }
+
+    #main-container .zuri-main-6 .zuri-main-6-container-item {
+        width: 37%;
+    }
+
+    #main-container .zuri-main-6 .zuri-main-6-header h2 {
+        width: 100%;
+    }
+
+    #header-container .navbar-header img {
+        width: 90%;
+    }
+  }
+
+@media screen and (min-width:350px) and (max-width:899px) {
+    #header-container {
+        padding: 1.5rem;
+    }
+     #header-container .image-thumb {
+    display: flex;
+    align-items: center;
+    width:140px;
+}
+
+    #header-container .image-thumb img {
+        width: 3.5rem;
+        margin-left: -35px;
+        padding: 10px;
+        margin-top: -27px;
+    }
+    #header-container .image-thumb img {
+        width: 2.0rem;
+        margin-left: -35px;
+        padding: 10px;
+        margin-top: -27px;
+    }
+
+    #header-container .navbar .menu {
+        display: none;
+    }
+
+    #header-container .navbar .navbar-header {
+        width: 55%;
+    }
+
+    #header-container .navbar-header img {
+        width: 80%;
+    }
+
+    #header-container .image-thumb .enroll {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    #main-container .zuri-main-1 {
+        flex-direction: column;
+        padding: 0 1.5rem;
+    }
+    
+    #main-container .first-training-item {
+        width: 100%;
+    }
+
+    #main-container .first-training-item-two
+ {
+        width: 100%;
+    }
+
+    #main-container .first-training-item-two h2 {
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+
+    #main-container .first-training-item p {
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+
+    #main-container .zuri-main-1 .maleface3 {
+        display: none;
+    }
+
+    #main-container .first-training-item-two .first-training-item-s1-maleface {
+        display: none;
+    }
+
+    #main-container .hr-div {
+        padding: 0 1.5rem;
+    }
+
+    #main-container .hr-one {
+        border: 0.7px solid #514949;
+        opacity: 0.2;
+        margin: 2.5rem 0;
+    }
+
+    #main-container .zuri-main-2 {
+        flex-direction: column;
+        padding: 0 1.5rem;
+    }
+
+    #main-container .zuri-main-3 {
+        padding: 0 1.5rem;
+    }
+
+    #main-container .zuri-main-3 .third-training-item-1 {
+        width: 100%;
+    }
+
+    #main-container .zuri-main-2 h3,
+    #main-container .zuri-main-3 h3,
+    #main-container .zuri-main-5 h3, #main-container .zuri-main-6 .zuri-main-6-header h3 {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+#main-container .zuri-main-2 p,
+    #main-container .zuri-main-3 p,
+    #main-container .zuri-main-3 p {
+        font-size: 1.125rem;
+        line-height: 1.3rem;
+    }
+
+    #main-container .zuri-main-2 .zuri-main-2-item {
+        width: 100%;
+    }
+
+    #main-container .zuri-main-3 .third-training-item-2 {
+        display: none;
+    }
+     #main-container .zuri-main-2 .zuri-main-2-item img {
+        mix-blend-mode: darken;
+        width: 76%;
+    }
+
+    #main-container .zuri-main-3 {
+        flex-direction: column;
+    }
+
+    #main-container .zuri-main-4 {
+        padding: 0 1.5rem;
+        flex-direction: column;
+    }
+
+    #main-container .zuri-main-4 .box-a {
+        width: 70%;
+    }
+
+    #main-container .zuri-main-5 {
+        padding: 0 1.5rem;
+    }
+
+    #main-container .zuri-main-5-wrapper {
+        flex-direction: column;
+    }
+
+    #main-container .zuri-main-5 .zuri-main-5-item1, #main-container .zuri-main-5 .zuri-main-5-item2  {
+        width: 100%;
+    }
+
+    #main-container .zuri-main-5 .zuri-main-5-item1 .zuri-main-5-point-wrapper {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    #main-container .zuri-main-5 .zuri-main-5-item1 .zuri-main-5-point-wrapper .zuri-main-5-point {
+        width: 37%;
+    }
+
+    #main-container .zuri-main-5 .zuri-main-5-item1 p {
+        font-size: 0.7rem;
+    }
+    
+    #main-container .zuri-main-5 .zuri-main-5-item1 .zuri-main-5-point-wrapper .zuri-main-5-point img {
+        width: 20%;
+    }
+
+    #main-container .zuri-main-5-wrapper {
+        padding: unset;
+    }
+
+#main-container .zuri-main-6 {
+        padding: 1.5rem;
+    }
+
+    nomain-container .zuri-main-6 .zuri-main-6-header h3,
+    #main-container .zuri-main-6 .zuri-main-6-header h2 {
+        width: 100%;
+    }
+
+    #main-container .zuri-main-6 h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    #main-container .zuri-main-6 .zuri-main-6-container-item {
+        width: 100%;
+    }
+
+    #main-container .zuri-main-6 .zuri-main-6-header h2 {
+        width: 100%;
+    }
+
+    #main-container .zuri-main-7 {
+        padding: 1.5rem;
+    }
+
+    #main-container .zuri-main-7 h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    #main-container .zuri-main-7 .accordion-wrapper {
+        width: 100%;
+    }
+
+    #main-container .accordion .accordion-container {
+        padding: 10px;
+    }
+
+    .accordion .accordion-container .label::before {
+        right: 0.1rem;
+    }
+
+.accordion .accordion-container.active .content {
+    font-family: 'Baskerville', sans-serif;
+    height: 4rem;
+    padding-bottom: 6.5rem;
+}
+    #main-container .zuri-main-7 .got-questions-tweet {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main-container .zuri-main-8 {
+        padding: 1.5rem;
+    }
+    
+    #main-container .zuri-main-8 .zuri-main-8-wire img {
+        width: 23%;
+    }
+
+    #main-container .zuri-main-8 .zuri-main-8-wrapper {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-first {
+        display: none;
+    }
+
+    #main-container .zuri-main-8 .zuri-main-8-wrapper .zuri-main-8-tracks {
+        width: 100%;
+        margin-left: unset;
+    }
+
+    #main-container .zuri-main-8 .zuri-main-8-circle {
+        float: right;
+        margin-right: -23px;
+        margin-top: -72px;
+        width: 40%;
+    }
+
+    #main-container .zuri-main-9 {
+        padding: 1.5rem;
+    }
+
+    #main-container .zuri-main-9 .zuri-main-9-container h2 {
+        font-size: 1.625rem;
+        width: 60%;
+    }
+
+    #footer-container {
+        padding: 1.5rem;
+    }
+
+    #footer-container .footer-top {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #footer-container .footer-bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #footer-container .footer-bottom .footer-policy {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    #main-container .hr-div {
+        padding: 1.5rem;
+    }
+
+    .footer-hr {
+        display: block;
+        border: 0.7px solid #514949;
+        opacity: 0.2;
+        margin: 1.5rem 0;
+    }
+
+    .footer-copyright {
+        width: 100%;
+        text-align: center;
+    }
+
+    #modal-wrapper .modal-container {
+        padding: 2rem;
+        width: 80%;
+    }
+  }
